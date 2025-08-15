@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Github, Linkedin, Code2, Zap, Globe, Database } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Code2, Zap, Globe, Database, Twitter } from "lucide-react"
 import { motion, useScroll, useTransform, easeOut, easeInOut } from "framer-motion"
 import { useRef } from "react"
 
@@ -213,7 +213,7 @@ export default function HeroSection() {
 
         <motion.div variants={itemVariants} className="flex justify-center space-x-6">
           <motion.a
-            href="https://github.com"
+            href="https://github.com/Sudipto-das"
             target="_blank"
             rel="noopener noreferrer"
             className="text-stone-600 hover:text-black transition-colors duration-300"
@@ -226,7 +226,7 @@ export default function HeroSection() {
           </motion.a>
 
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sudipto-das-a48a31154/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-stone-600 hover:text-black transition-colors duration-300"
@@ -235,6 +235,19 @@ export default function HeroSection() {
           >
             <div className="p-3 rounded-lg bg-white/60 backdrop-blur-sm border border-stone-200 shadow-sm hover:shadow-md transition-all duration-300">
               <Linkedin size={24} />
+            </div>
+          </motion.a>
+
+          <motion.a
+            href="https://x.com/sudiptodas877" // Replace with your Twitter handle
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-stone-600 hover:text-black transition-colors duration-300"
+            whileHover={{ scale: 1.2, y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <div className="p-3 rounded-lg bg-white/60 backdrop-blur-sm border border-stone-200 shadow-sm hover:shadow-md transition-all duration-300">
+              <Twitter size={24} />
             </div>
           </motion.a>
         </motion.div>
