@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
+import Image from "next/image"
 
 export default function ProjectsSection() {
   const projects = [
@@ -51,9 +52,11 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <Card key={index} className="hover-lift scroll-reveal border-0 shadow-lg overflow-hidden bg-white">
               <div className="aspect-video bg-gray-200 overflow-hidden">
-                <img
+                <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
+                  width={400}
+                  height={225}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>

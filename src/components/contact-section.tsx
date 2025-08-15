@@ -8,11 +8,11 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 scroll-reveal">
           <h2 className="font-sans font-black text-4xl md:text-6xl text-black mb-6 tracking-tight">
-            Let's Build Something <span className="text-black">Amazing Together!</span>
+            Let&apos;s Build Something <span className="text-black">Amazing Together!</span>
           </h2>
           <div className="h-1 w-16 bg-lime-400 rounded-full mx-auto mt-2"></div>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto font-medium">
-            Ready to bring your digital vision to life? I'm here to help you create exceptional web experiences that
+            Ready to bring your digital vision to life? I&apos;m here to help you create exceptional web experiences that
             drive results.
           </p>
         </div>
@@ -22,7 +22,7 @@ export default function ContactSection() {
             {
               icon: <Mail className="w-6 h-6" />,
               title: "Email Me",
-              description: "Drop me a line and I'll get back to you within 24 hours",
+              description: "Drop me a line and I&apos;ll get back to you within 24 hours",
               action: "sudipto877@gmail.com",
             },
             {

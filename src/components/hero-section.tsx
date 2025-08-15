@@ -140,7 +140,7 @@ export default function HeroSection() {
 
         <motion.div variants={itemVariants}>
           <p className="text-base md:text-lg text-stone-700 mb-8 max-w-2xl mx-auto leading-relaxed font-medium">
-          with Precision and Passion. I'm Sudipto Das, a freelance web developer specializing in modern web applications and websites that function beautifully.
+          with Precision and Passion. I&apos;m Sudipto Das, a freelance web developer specializing in modern web applications and websites that function beautifully.
           </p>
         </motion.div>
 

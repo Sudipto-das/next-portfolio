@@ -55,7 +55,7 @@ export default function Header() {
               onClick={() => scrollToSection("contact")}
               className="bg-lime-400 hover:bg-lime-500 text-black font-medium px-6 py-2 rounded-full"
             >
-              Let's Work
+              Let&apos;s Work
             </Button>
           </div>
 
@@ -82,7 +82,7 @@ export default function Header() {
                 onClick={() => scrollToSection("contact")}
                 className="bg-lime-400 hover:bg-lime-500 text-black font-medium w-full mt-4 rounded-full"
               >
-                Let's Work
+                Let&apos;s Work
               </Button>
             </nav>
           </div>
