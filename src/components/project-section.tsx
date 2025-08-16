@@ -77,9 +77,12 @@ export default function ProjectsSection() {
                     variant="outline"
                     size="sm"
                     className="border-black text-black hover:bg-lime-100 bg-transparent font-medium"
+                    asChild
                   >
-                    <ExternalLink size={16} className="mr-2" />
-                    Live Demo
+                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink size={16} className="mr-2" />
+                      Live Demo
+                    </a>
                   </Button>
                   <Button
                     variant="outline"
