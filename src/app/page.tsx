@@ -8,6 +8,8 @@ import AboutSection from "@/components/about-section"
 import ServicesSection from "@/components/services-section"
 import ContactSection from "@/components/contact-section"
 import ProjectsSection from "@/components/project-section"
+import ExperienceSection from "@/components/experience-section"
+
 
 export default function Portfolio() {
   useEffect(() => {
@@ -36,7 +38,7 @@ export default function Portfolio() {
       <main>
         <HeroSection />
         <AboutSection />
-        <ServicesSection />
+        <ExperienceSection />
         <ProjectsSection />
         <ContactSection />
       </main>
