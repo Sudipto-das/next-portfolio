@@ -76,7 +76,7 @@ export default function ExperienceSection() {
               viewport={{ once: true }}
               className="text-base text-gray-700 mb-8 leading-relaxed font-medium max-w-lg"
             >
-              Over the past 2 years, I've focused on building and shipping modern web applications, collaborating with
+              Over the past 2 years, I&apos;ve focused on building and shipping modern web applications, collaborating with
               talented teams to solve real-world problems. My development journey has included working on scalable SaaS
               dashboards, e-commerce platforms, and interactive user interfaces using the latest frontend technologies.
             </motion.p>
