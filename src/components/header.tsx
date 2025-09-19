@@ -26,31 +26,33 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-white/90 backdrop-blur-sm"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-white/90 backdrop-blur-sm"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-        <div className="font-sans font-bold text-2xl text-gray-900">
+          <div className="font-sans font-bold text-2xl text-gray-900">
             Sudipto<span className="text-green-600">.</span>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-4 border-2 px-14 py-1.5 rounded-full">
             {["Home", "About", "Services", "Projects", "Contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-black hover:text-gray-600 transition-colors font-medium text-sm"
+                className="relative px-4  text-black font-medium text-sm uppercase 
+                 rounded-full transition-all duration-300 ease-in-out 
+                 hover:bg-black hover:text-white cursor-pointer py-4"
               >
                 {item}
               </button>
             ))}
           </nav>
 
+
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-black hover:text-gray-600 transition-colors font-medium text-sm">Sign In</button>
+
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-lime-400 hover:bg-lime-500 text-black font-medium px-6 py-2 rounded-full"
